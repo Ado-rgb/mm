@@ -15,11 +15,10 @@ global.owner = [
 
 //Información 
 globalThis.info = {
-wm: "𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿",
+wm: "sʏᴀ ʙᴏᴛ 🫟",
 vs: "2.0.0 (beta)",
-packname: "𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦❤️‍🔥 - LoliBot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-author: "Owner: @elrebelde21\n• Dueña: @itschinita_official",
-apis: "https://delirius-apiofc.vercel.app",
+packname: "𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦 🐦‍🔥 - LoliBot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+apis: "https://myapiadonix.vercel.app",
 apikey: "GataDios",
 fgmods: { url: 'https://api.fgmods.xyz/api', key: 'elrebelde21' },
 neoxr: { url: 'https://api.neoxr.eu/api', key: 'GataDios' },
