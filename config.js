@@ -15,7 +15,7 @@ global.owner = [
 
 //Información 
 globalThis.info = {
-wm: "sʏᴀ ʙᴏᴛ 🫟",
+wm: "🐦‍🔥 𝗣𝗮𝗻𝗰𝗵𝗶𝘁𝗼 🫟",
 vs: "2.0.0 (beta)",
 packname: "𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦 🐦‍🔥 - LoliBot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
 apis: "https://myapiadonix.vercel.app",
