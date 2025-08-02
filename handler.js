@@ -77,8 +77,8 @@ image = pp
 switch (action) {
 case "add":
 if (settings.welcome) {
-const groupDesc = metadata.desc || "*ᴜɴ ɢʀᴜᴘᴏ ɢᴇɴɪᴀ😸*\n *sɪɴ ʀᴇɢʟᴀ 😉*"
-const raw = settings.swelcome || `HOLAA!! @user ¿COMO ESTAS?😃\n\n『Bienvenido A *@group*』\n\nUn gusto conocerte amig@ 🤗\n\n_Recuerda leer las reglas del grupo para no tener ningun problema 🧐_\n\n*Solo disfrutar de este grupo y divertite 🥳*`
+const groupDesc = metadata.desc || "*New Member 💥"
+const raw = settings.swelcome || `Holaa!! @user\n\nBienvenido a *@group*\n\nUn gusto tenerte aquí amigo/a.`
 const msg = raw
 .replace(/@user/gi, userTag)
 .replace(/@group|@subject/gi, groupName)
@@ -91,14 +91,14 @@ mentionedJid: [participant],
 isForwarded: true,
 forwardingScore: 999999,
 forwardedNewsletterMessageInfo: {
-newsletterJid: ["120363305025805187@newsletter", "120363160031023229@newsletter", "120363301598733462@newsletter"].getRandom(),
-newsletterName: "LoliBot ✨️"
+newsletterJid: ["120363403739366547@newsletter", "120363403739366547@newsletter", "120363403739366547@newsletter"].getRandom(),
+newsletterName: "𝗣𝗮𝗻𝗰𝗵𝗶𝘁𝗼 - 𝗕𝗢𝗧 🌤️"
 }}}, { quoted: null })
 } else {
 await conn.sendMessage(id, { text: msg,
 contextInfo: {
 forwardedNewsletterMessageInfo: {
-newsletterJid: ["120363305025805187@newsletter", "120363160031023229@newsletter", "120363301598733462@newsletter"].getRandom(),
+newsletterJid: ["120363403739366547@newsletter", "120363403739366547@newsletter", "120363403739366547@newsletter"].getRandom(),
 newsletterName: "𝗣𝗮𝗻𝗰𝗵𝗶𝘁𝗼 - 𝗕𝗢𝗧 🌤️"
 },
 forwardingScore: 9999999,
@@ -108,11 +108,11 @@ externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: true,
 thumbnailUrl: image,
-title: "🌟 WELCOME 🌟",
-body: "Bienvenido al grupo 🤗",
+title: "🔥 𝖡𝖨𝖤𝖭𝖵𝖤𝖭𝖨𝖣𝖮/𝖠 🍁",
+body: "𝖤𝗌𝗉𝖾𝗋𝖺𝗆𝗈𝗌 𝗒 𝗅𝖺 𝗉𝖺𝗌𝖾𝗌 𝖻𝗂𝖾𝗇.",
 containsAutoReply: true,
 mediaType: 1,
-sourceUrl: "https://skyultraplus.com"
+sourceUrl: "https:/myapiadonix.vercel.app"
 }}}, { quoted: null })
 }}
 break
@@ -132,7 +132,7 @@ console.error("❌ Error en 'remove':", err);
           
 if (settings.welcome && conn?.user?.jid !== globalThis?.conn?.user?.jid) {
 const groupDesc = metadata.desc || "Sin descripción"
-const raw = settings.sbye || `Bueno, se fue @user 👋\n\nQue dios lo bendiga 😎`
+const raw = settings.sbye || `Adios @user que te vaya bien en la vida.\n\n`
 const msg = raw
 .replace(/@user/gi, userTag)
 .replace(/@group/gi, groupName)
@@ -145,15 +145,15 @@ mentionedJid: [participant],
 isForwarded: true,
 forwardingScore: 999999,
 forwardedNewsletterMessageInfo: {
-newsletterJid: ["120363305025805187@newsletter", "120363160031023229@newsletter", "120363301598733462@newsletter"].getRandom(),
-newsletterName: "LoliBot ✨️"
+newsletterJid: ["120363403739366547@newsletter", "120363403739366547@newsletter", "120363403739366547@newsletter"].getRandom(),
+newsletterName: "𝗣𝗮𝗻𝗰𝗵𝗶𝘁𝗼 - 𝗕𝗢𝗧 🌤️"
 }}}, { quoted: null })
 } else {
 await conn.sendMessage(id, { text: msg,
 contextInfo: {
 forwardedNewsletterMessageInfo: {
-newsletterJid: ["120363305025805187@newsletter", "120363160031023229@newsletter", "120363301598733462@newsletter"].getRandom(),
-newsletterName: "LoliBot ✨️"
+newsletterJid: ["120363403739366547@newsletter", "120363403739366547@newsletter", "120363403739366547@newsletter"].getRandom(),
+newsletterName: "𝗣𝗮𝗻𝗰𝗵𝗶𝘁𝗼 - 𝗕𝗢𝗧 🌤️"
 },
 forwardingScore: 9999999,
 isForwarded: true,
@@ -162,11 +162,11 @@ externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: true,
 thumbnailUrl: image,
-title: "👋 BYE",
-body: "Se fue un gay",
+title: "🦖 𝖧𝖠𝖲𝖳𝖠 𝖫𝖴𝖤𝖦𝖮..",
+body: "🐛 𝖥𝗎𝖾 𝗎𝗇𝗈 𝗀𝗎𝗌𝗍𝗈 𝗍𝖾𝗇𝖾𝗋𝗅𝗈 𝖺𝗊𝗎𝗂",
 containsAutoReply: true,
 mediaType: 1,
-sourceUrl: "https://skyultraplus.com"
+sourceUrl: "https://myapiadonix.vercel.app"
 }}}, { quoted: null })
 }}
 break
@@ -182,20 +182,20 @@ const msg = raw
 await conn.sendMessage(id, { text: msg,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
-newsletterJid: ["120363305025805187@newsletter", "120363160031023229@newsletter", "120363301598733462@newsletter"].getRandom(),
-newsletterName: "LoliBot ✨️" },
+newsletterJid: ["120363403739366547@newsletter", "120363403739366547@newsletter", "120363403739366547@newsletter"].getRandom(),
+newsletterName: "𝗣𝗮𝗻𝗰𝗵𝗶𝘁𝗼 - 𝗕𝗢𝗧 🌤️" },
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid: [participant, author],
 externalAdReply: {  
 showAdAttribution: true,  
 renderLargerThumbnail: false,  
-title: "NUEVO ADMINS 🥳",
-body: "Weon eres admin portante mal 😉",
+title: "NUEVO ADMIN 🦁",
+body: "Felicidades, pórtate como un angelito",
 containsAutoReply: true,  
 mediaType: 1,   
 thumbnailUrl: image,
-sourceUrl: "skyultraplus.com"
+sourceUrl: "myapiadonix.vercel.app"
 }}}, { quoted: null })         
 }
 break
