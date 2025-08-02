@@ -99,7 +99,7 @@ await conn.sendMessage(id, { text: msg,
 contextInfo: {
 forwardedNewsletterMessageInfo: {
 newsletterJid: ["120363305025805187@newsletter", "120363160031023229@newsletter", "120363301598733462@newsletter"].getRandom(),
-newsletterName: "LoliBot ✨️"
+newsletterName: "𝗣𝗮𝗻𝗰𝗵𝗶𝘁𝗼 - 𝗕𝗢𝗧 🌤️"
 },
 forwardingScore: 9999999,
 isForwarded: true,
