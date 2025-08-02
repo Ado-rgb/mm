@@ -25,15 +25,15 @@ const videoId = videoIdToFind[1];
 ytplay2 = ytplay2.all.find(item => item.videoId === videoId) || ytplay2.videos.find(item => item.videoId === videoId)}
 ytplay2 = ytplay2.all?.[0] || ytplay2.videos?.[0] || ytplay2;
 const PlayText = await conn.sendMessage(m.chat, { text: `${yt_play[0].title}
-*     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     *
+*  ◁   ㅤ  ❚❚ㅤ     ▷ㅤ  *
 
-> *🔰 Duración » * ${secondString(yt_play[0].duration.seconds)}
+> *🔰 Duración »* ${secondString(yt_play[0].duration.seconds)}
 > *❇️ Tipo » ${tipoDescarga}*`,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363403739366547@newsletter', 
 serverMessageId: '', 
-newsletterName: 'Ado ❇️' },
+newsletterName: 'Fyx ❇️' },
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid: null,  
@@ -41,7 +41,7 @@ externalAdReply: {
 showAdAttribution: false,  
 renderLargerThumbnail: false,  
 title: yt_play[0].title,   
-body: "📗 SYA BOT 🔥",
+body: "📗 Panchito 🔥",
 containsAutoReply: true,  
 mediaType: 1,   
 thumbnailUrl: yt_play[0].thumbnail, 
